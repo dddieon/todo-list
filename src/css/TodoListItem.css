@@ -7,13 +7,13 @@
   background: #f8f9fa;
 }
 .TodoListItem .checkbox {
-  cursor: pointer;
   display: flex;
   flex: 1;
   align-items: center;
 }
 .TodoListItem .checkbox svg {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .TodoListItem .checkbox .text {
   margin-left: 0.5rem;
@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  color: pointer;
+  cursor: pointer;
   color: #ff6b6b;
 }
 .TodoListItem .remove:hover {
